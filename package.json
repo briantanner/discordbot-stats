@@ -1,0 +1,24 @@
+{
+  "name": "discordbot-stats",
+  "version": "0.1.0",
+  "homepage": "https://github.com/briantanner/discordbot-stats",
+  "author": {
+    "name": "Brian Tanner",
+    "email": "brian@tanner.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briantanner/discordbot-stats.git"
+  },
+  "bugs": {
+    "url": "https://github.com/briantanner/discordbot-stats/issues"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discordbot-core": "briantanner/discordbot-core",
+    "mongoose": "^4.4.20"
+  }
+}
